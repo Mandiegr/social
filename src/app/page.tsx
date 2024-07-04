@@ -1,9 +1,22 @@
-import styles from "./page.module.css";
+'use client'
+import { styled } from "styled-components";
+import Layout from "./home/page";
+
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h3>Rede Social</h3>
-    </main>
+    
+  <Container>
+  <Layout/>
+  </Container>
+   
   );
 }
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+ 
+`
