@@ -14,10 +14,13 @@
     "@mui/icons-material": "^5.15.21",
     "@mui/material": "^5.15.21",
     "@types/styled-components": "^5.1.34",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
     "bootstrap-icons": "^1.11.3",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-router-dom": "^6.24.1",
     "styled-components": "^6.1.11"
   },
   "devDependencies": {
